@@ -4,15 +4,17 @@
 ###### Packages Used ######
 import streamlit as st # core package used in this project
 import pandas as pd
-import base64, random
-import time,datetime
+import base64 
+import random
+import time
+import datetime
 import pymysql
 import os
 import socket
 import platform
 import geocoder
 import secrets
-import io,random
+import io
 import plotly.express as px # to create visualisations at the admin session
 import plotly.graph_objects as go
 from geopy.geocoders import Nominatim
